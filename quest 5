@@ -1,0 +1,28 @@
+# quest-5
+
+#include <stdio.h>
+
+int main() {
+    // Declaração das variáveis
+    float num1, num2, num3, media;
+
+    // Solicita ao usuário para inserir o primeiro número
+    printf("Digite o primeiro número: ");
+    scanf("%f", &num1);
+
+    // Solicita ao usuário para inserir o segundo número
+    printf("Digite o segundo número: ");
+    scanf("%f", &num2);
+
+    // Solicita ao usuário para inserir o terceiro número
+    printf("Digite o terceiro número: ");
+    scanf("%f", &num3);
+
+    // Calcula a média aritmética dos três números
+    media = (num1 + num2 + num3) / 3;
+
+    // Exibe o resultado
+    printf("A média aritmética é %.2f\n", media);
+
+    return 0;
+}
